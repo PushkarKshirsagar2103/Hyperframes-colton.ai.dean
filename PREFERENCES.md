@@ -6,7 +6,7 @@ Your accumulated taste for video work in this workspace. Populated over time via
 
 Each bullet should end with a date in parentheses — that traces back to the per-session log under `_reference/feedback-logs/`.
 
-> Seeded at setup with PovPushkar's stated editing style. It keeps growing as you finish videos and run `/feedback`, so the workspace matches your taste more closely over time without you repeating yourself.
+> Seeded at setup with Pushkar's stated editing style. It keeps growing as you finish videos and run `/feedback`, so the workspace matches your taste more closely over time without you repeating yourself.
 
 ---
 
@@ -44,7 +44,7 @@ _(preferred / avoid — populated by /feedback over time)_
 
 _(music vibe, voiceover style, SFX, mix — populated by /feedback over time)_
 
-- Preserve PovPushkar's original voice — no voice replacement or TTS over their speech (2026-10-25, stated at setup)
+- Preserve Pushkar's original voice — no voice replacement or TTS over their speech (2026-10-25, stated at setup)
 - SFX only when they genuinely add something; default to fewer (2026-10-25, stated at setup)
 
 ## Brand

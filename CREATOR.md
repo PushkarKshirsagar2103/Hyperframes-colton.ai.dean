@@ -3,13 +3,13 @@
      and run onboarding before any video work. The setup skill removes it when finished.
      Remaining setup steps: reference reels (Step 3) and brand colors (Step 4). -->
 
-# Creator Profile — PovPushkar
+# Creator Profile — Pushkar Kshirsagar
 
 Your identity, positioning, and workflow for video work in this workspace. **Read this before every video task** (alongside `PREFERENCES.md`). Use it for on-screen text, niche framing, and workflow assumptions.
 
 ## Identity
 
-- **Name on-screen**: PovPushkar
+- **Name / brand name on-screen**: Pushkar Kshirsagar (use this exact spelling in outros, lower-thirds, and end-cards)
 - **Instagram**: @povpushkar
 - **TikTok**: —
 - **YouTube**: Pov Pushkar (channel name)
@@ -43,7 +43,7 @@ When planning a new video, assume this niche unless told otherwise.
 
 ## Workflow — division of labor
 
-**The assistant handles the editing.** PovPushkar supplies raw talking-head footage, B-roll, product shots, and screen recordings. The assistant:
+**The assistant handles the editing.** Pushkar supplies raw talking-head footage, B-roll, product shots, and screen recordings. The assistant:
 
 - **Cuts the raw footage**: removes long pauses, dead air, repeated or unnecessary takes, and false starts.
 - **Preserves natural delivery**: keep the original voice, rhythm, and natural **Hinglish** (Hindi + English) speech. Don't over-tighten cuts into a jumpy, robotic feel, and never replace or re-voice the audio.
@@ -51,7 +51,7 @@ When planning a new video, assume this niche unless told otherwise.
 
 This overrides the workspace default of "never cut the speaker's audio". Here, cutting dead air and bad takes is expected. Changing what was said, or its meaning, is not.
 
-PovPushkar is a beginner and does not write code or configure tools. Keep every step plain-language, and ask before anything technical.
+Pushkar is a beginner and does not write code or configure tools. Keep every step plain-language, and ask before anything technical.
 
 ## Brand identity
 
@@ -66,7 +66,7 @@ Full editing taste lives in `PREFERENCES.md`.
 
 _(Studied creators live in [`_reference/creator-library/`](_reference/creator-library/). Paste a TikTok / Instagram Reel / YouTube Short URL and run `/study-creator <url>` to add one. At build time, name a creator — "build this like @handle" — to apply their style fingerprint to the visual layer.)_
 
-PovPushkar's reference videos define the editing style, pacing, captions, and motion graphics they like. These are being collected in setup Step 3.
+Pushkar's reference videos define the editing style, pacing, captions, and motion graphics they like. These are being collected in setup Step 3.
 
 ## Posting cadence & length defaults
 
