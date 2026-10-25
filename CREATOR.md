@@ -64,9 +64,9 @@ Full editing taste lives in `PREFERENCES.md`.
 
 ## Inspiration creators
 
-_(Studied creators live in [`_reference/creator-library/`](_reference/creator-library/). Paste a TikTok / Instagram Reel / YouTube Short URL and run `/study-creator <url>` to add one. At build time, name a creator — "build this like @handle" — to apply their style fingerprint to the visual layer.)_
+See [`_reference/creator-library/INDEX.md`](_reference/creator-library/INDEX.md) for the full list. Add new creators via `/study-creator <url>`.
 
-Pushkar's reference videos define the editing style, pacing, captions, and motion graphics they like. These are being collected in setup Step 3.
+Pushkar's reference videos define the editing style, pacing, captions, and motion graphics they like. Six reels were studied on 2026-10-25 (@dhananjay_tech ×3 — primary tech reference; @technolobe ×1 — premium aesthetic; @namansoni.ai ×2 — structure and storytelling). The combined direction is in [`EDITING_BLUEPRINT.md`](EDITING_BLUEPRINT.md) (draft — awaiting Pushkar's approval).
 
 ## Posting cadence & length defaults
 

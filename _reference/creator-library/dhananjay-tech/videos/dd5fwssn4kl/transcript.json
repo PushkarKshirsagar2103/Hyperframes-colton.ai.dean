@@ -1,0 +1,584 @@
+[
+  {
+    "text": "Amazon",
+    "start": 0,
+    "end": 0.54,
+    "id": "w0"
+  },
+  {
+    "text": "Prime,",
+    "start": 0.54,
+    "end": 1.1,
+    "id": "w1"
+  },
+  {
+    "text": "Free,",
+    "start": 1.1,
+    "end": 1.49,
+    "id": "w2"
+  },
+  {
+    "text": "Canva",
+    "start": 1.49,
+    "end": 1.92,
+    "id": "w3"
+  },
+  {
+    "text": "Pro,",
+    "start": 1.92,
+    "end": 2.35,
+    "id": "w4"
+  },
+  {
+    "text": "Free,",
+    "start": 2.35,
+    "end": 2.9,
+    "id": "w5"
+  },
+  {
+    "text": "Apple",
+    "start": 2.9,
+    "end": 3.36,
+    "id": "w6"
+  },
+  {
+    "text": "TV,",
+    "start": 3.36,
+    "end": 3.71,
+    "id": "w7"
+  },
+  {
+    "text": "Wobe",
+    "start": 3.71,
+    "end": 4,
+    "id": "w8"
+  },
+  {
+    "text": "Free,",
+    "start": 4,
+    "end": 4.43,
+    "id": "w9"
+  },
+  {
+    "text": "Super",
+    "start": 4.48,
+    "end": 4.73,
+    "id": "w10"
+  },
+  {
+    "text": "Duolungo,",
+    "start": 4.73,
+    "end": 5.33,
+    "id": "w11"
+  },
+  {
+    "text": "Wobe",
+    "start": 5.33,
+    "end": 5.58,
+    "id": "w12"
+  },
+  {
+    "text": "Free,",
+    "start": 5.58,
+    "end": 5.96,
+    "id": "w13"
+  },
+  {
+    "text": "Aur",
+    "start": 5.96,
+    "end": 6.16,
+    "id": "w14"
+  },
+  {
+    "text": "bhi",
+    "start": 6.16,
+    "end": 6.35,
+    "id": "w15"
+  },
+  {
+    "text": "kahi",
+    "start": 6.35,
+    "end": 6.59,
+    "id": "w16"
+  },
+  {
+    "text": "saari",
+    "start": 6.59,
+    "end": 6.88,
+    "id": "w17"
+  },
+  {
+    "text": "services.",
+    "start": 6.88,
+    "end": 7.4,
+    "id": "w18"
+  },
+  {
+    "text": "And",
+    "start": 7.4,
+    "end": 7.63,
+    "id": "w19"
+  },
+  {
+    "text": "yeh",
+    "start": 7.63,
+    "end": 7.83,
+    "id": "w20"
+  },
+  {
+    "text": "sab,",
+    "start": 7.84,
+    "end": 8.23,
+    "id": "w21"
+  },
+  {
+    "text": "Jio",
+    "start": 8.23,
+    "end": 8.45,
+    "id": "w22"
+  },
+  {
+    "text": "aur",
+    "start": 8.45,
+    "end": 8.68,
+    "id": "w23"
+  },
+  {
+    "text": "LTL",
+    "start": 8.68,
+    "end": 8.89,
+    "id": "w24"
+  },
+  {
+    "text": "ke,",
+    "start": 8.89,
+    "end": 9.23,
+    "id": "w25"
+  },
+  {
+    "text": "regular",
+    "start": 9.31,
+    "end": 9.51,
+    "id": "w26"
+  },
+  {
+    "text": "plans",
+    "start": 9.64,
+    "end": 9.85,
+    "id": "w27"
+  },
+  {
+    "text": "ke",
+    "start": 9.85,
+    "end": 9.95,
+    "id": "w28"
+  },
+  {
+    "text": "saath",
+    "start": 9.95,
+    "end": 10.19,
+    "id": "w29"
+  },
+  {
+    "text": "free",
+    "start": 10.2,
+    "end": 10.36,
+    "id": "w30"
+  },
+  {
+    "text": "mein",
+    "start": 10.47,
+    "end": 10.59,
+    "id": "w31"
+  },
+  {
+    "text": "aar",
+    "start": 10.6,
+    "end": 10.75,
+    "id": "w32"
+  },
+  {
+    "text": "hai.",
+    "start": 10.75,
+    "end": 11.1,
+    "id": "w33"
+  },
+  {
+    "text": "But,",
+    "start": 11.1,
+    "end": 11.36,
+    "id": "w34"
+  },
+  {
+    "text": "but,",
+    "start": 11.36,
+    "end": 11.62,
+    "id": "w35"
+  },
+  {
+    "text": "but,",
+    "start": 11.62,
+    "end": 11.9,
+    "id": "w36"
+  },
+  {
+    "text": "yeh",
+    "start": 11.91,
+    "end": 12.06,
+    "id": "w37"
+  },
+  {
+    "text": "apne",
+    "start": 12.07,
+    "end": 12.29,
+    "id": "w38"
+  },
+  {
+    "text": "aap",
+    "start": 12.29,
+    "end": 12.44,
+    "id": "w39"
+  },
+  {
+    "text": "apply",
+    "start": 12.45,
+    "end": 12.73,
+    "id": "w40"
+  },
+  {
+    "text": "nahi",
+    "start": 12.73,
+    "end": 12.93,
+    "id": "w41"
+  },
+  {
+    "text": "hota.",
+    "start": 13.01,
+    "end": 13.4,
+    "id": "w42"
+  },
+  {
+    "text": "Claim",
+    "start": 13.4,
+    "end": 13.66,
+    "id": "w43"
+  },
+  {
+    "text": "ne",
+    "start": 13.66,
+    "end": 13.76,
+    "id": "w44"
+  },
+  {
+    "text": "kiya,",
+    "start": 13.76,
+    "end": 14.07,
+    "id": "w45"
+  },
+  {
+    "text": "toh",
+    "start": 14.07,
+    "end": 14.22,
+    "id": "w46"
+  },
+  {
+    "text": "aap",
+    "start": 14.22,
+    "end": 14.36,
+    "id": "w47"
+  },
+  {
+    "text": "plan",
+    "start": 14.37,
+    "end": 14.58,
+    "id": "w48"
+  },
+  {
+    "text": "ka",
+    "start": 14.58,
+    "end": 14.68,
+    "id": "w49"
+  },
+  {
+    "text": "paisa",
+    "start": 14.68,
+    "end": 14.94,
+    "id": "w50"
+  },
+  {
+    "text": "toh",
+    "start": 14.94,
+    "end": 15.09,
+    "id": "w51"
+  },
+  {
+    "text": "pura",
+    "start": 15.09,
+    "end": 15.3,
+    "id": "w52"
+  },
+  {
+    "text": "dite",
+    "start": 15.31,
+    "end": 15.51,
+    "id": "w53"
+  },
+  {
+    "text": "ho.",
+    "start": 15.51,
+    "end": 15.8,
+    "id": "w54"
+  },
+  {
+    "text": "Lekin",
+    "start": 15.8,
+    "end": 16.09,
+    "id": "w55"
+  },
+  {
+    "text": "fahida",
+    "start": 16.09,
+    "end": 16.46,
+    "id": "w56"
+  },
+  {
+    "text": "aadha",
+    "start": 16.46,
+    "end": 16.76,
+    "id": "w57"
+  },
+  {
+    "text": "leto.",
+    "start": 16.76,
+    "end": 17.2,
+    "id": "w58"
+  },
+  {
+    "text": "Abhi,",
+    "start": 17.2,
+    "end": 17.46,
+    "id": "w59"
+  },
+  {
+    "text": "jo",
+    "start": 17.46,
+    "end": 17.56,
+    "id": "w60"
+  },
+  {
+    "text": "bhi",
+    "start": 17.56,
+    "end": 17.69,
+    "id": "w61"
+  },
+  {
+    "text": "SIM",
+    "start": 17.69,
+    "end": 17.82,
+    "id": "w62"
+  },
+  {
+    "text": "card",
+    "start": 17.82,
+    "end": 17.97,
+    "id": "w63"
+  },
+  {
+    "text": "aap",
+    "start": 17.99,
+    "end": 18.13,
+    "id": "w64"
+  },
+  {
+    "text": "use",
+    "start": 18.13,
+    "end": 18.26,
+    "id": "w65"
+  },
+  {
+    "text": "karein,",
+    "start": 18.26,
+    "end": 18.68,
+    "id": "w66"
+  },
+  {
+    "text": "wo",
+    "start": 18.68,
+    "end": 18.76,
+    "id": "w67"
+  },
+  {
+    "text": "comment",
+    "start": 18.76,
+    "end": 19.03,
+    "id": "w68"
+  },
+  {
+    "text": "kar",
+    "start": 19.11,
+    "end": 19.19,
+    "id": "w69"
+  },
+  {
+    "text": "lo.",
+    "start": 19.19,
+    "end": 19.3,
+    "id": "w70"
+  },
+  {
+    "text": "Me",
+    "start": 19.3,
+    "end": 19.4,
+    "id": "w71"
+  },
+  {
+    "text": "aapko",
+    "start": 19.4,
+    "end": 19.63,
+    "id": "w72"
+  },
+  {
+    "text": "puri",
+    "start": 19.63,
+    "end": 19.82,
+    "id": "w73"
+  },
+  {
+    "text": "list",
+    "start": 19.82,
+    "end": 20,
+    "id": "w74"
+  },
+  {
+    "text": "besh",
+    "start": 20.01,
+    "end": 20.21,
+    "id": "w75"
+  },
+  {
+    "text": "doonga.",
+    "start": 20.21,
+    "end": 20.7,
+    "id": "w76"
+  },
+  {
+    "text": "Ya",
+    "start": 20.7,
+    "end": 20.79,
+    "id": "w77"
+  },
+  {
+    "text": "fir,",
+    "start": 20.79,
+    "end": 21.02,
+    "id": "w78"
+  },
+  {
+    "text": "pin",
+    "start": 21.02,
+    "end": 21.13,
+    "id": "w79"
+  },
+  {
+    "text": "comment",
+    "start": 21.17,
+    "end": 21.47,
+    "id": "w80"
+  },
+  {
+    "text": "bhi",
+    "start": 21.47,
+    "end": 21.62,
+    "id": "w81"
+  },
+  {
+    "text": "dek",
+    "start": 21.62,
+    "end": 21.75,
+    "id": "w82"
+  },
+  {
+    "text": "sate",
+    "start": 21.75,
+    "end": 21.93,
+    "id": "w83"
+  },
+  {
+    "text": "ho.",
+    "start": 21.93,
+    "end": 22.2,
+    "id": "w84"
+  },
+  {
+    "text": "And",
+    "start": 22.2,
+    "end": 22.32,
+    "id": "w85"
+  },
+  {
+    "text": "aise",
+    "start": 22.32,
+    "end": 22.48,
+    "id": "w86"
+  },
+  {
+    "text": "badia",
+    "start": 22.48,
+    "end": 22.63,
+    "id": "w87"
+  },
+  {
+    "text": "videos",
+    "start": 22.67,
+    "end": 22.9,
+    "id": "w88"
+  },
+  {
+    "text": "ke",
+    "start": 22.91,
+    "end": 23,
+    "id": "w89"
+  },
+  {
+    "text": "liye.",
+    "start": 23,
+    "end": 23.3,
+    "id": "w90"
+  },
+  {
+    "text": "Hame",
+    "start": 23.3,
+    "end": 23.47,
+    "id": "w91"
+  },
+  {
+    "text": "follow",
+    "start": 23.47,
+    "end": 23.72,
+    "id": "w92"
+  },
+  {
+    "text": "bhi",
+    "start": 23.73,
+    "end": 23.85,
+    "id": "w93"
+  },
+  {
+    "text": "kar",
+    "start": 23.85,
+    "end": 23.98,
+    "id": "w94"
+  },
+  {
+    "text": "sate",
+    "start": 23.98,
+    "end": 24.15,
+    "id": "w95"
+  },
+  {
+    "text": "ho.",
+    "start": 24.15,
+    "end": 24.4,
+    "id": "w96"
+  }
+]

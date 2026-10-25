@@ -1,0 +1,536 @@
+[
+  {
+    "text": "99%",
+    "start": 0,
+    "end": 0.37,
+    "id": "w0"
+  },
+  {
+    "text": "of",
+    "start": 0.37,
+    "end": 0.47,
+    "id": "w1"
+  },
+  {
+    "text": "people",
+    "start": 0.47,
+    "end": 0.79,
+    "id": "w2"
+  },
+  {
+    "text": "are",
+    "start": 0.79,
+    "end": 0.95,
+    "id": "w3"
+  },
+  {
+    "text": "worried",
+    "start": 0.95,
+    "end": 1.32,
+    "id": "w4"
+  },
+  {
+    "text": "about",
+    "start": 1.32,
+    "end": 1.59,
+    "id": "w5"
+  },
+  {
+    "text": "the",
+    "start": 1.59,
+    "end": 1.75,
+    "id": "w6"
+  },
+  {
+    "text": "two",
+    "start": 1.75,
+    "end": 1.89,
+    "id": "w7"
+  },
+  {
+    "text": "problems",
+    "start": 1.92,
+    "end": 2.33,
+    "id": "w8"
+  },
+  {
+    "text": "of",
+    "start": 2.33,
+    "end": 2.44,
+    "id": "w9"
+  },
+  {
+    "text": "Gmail.",
+    "start": 2.44,
+    "end": 2.76,
+    "id": "w10"
+  },
+  {
+    "text": "Whereas,",
+    "start": 2.76,
+    "end": 3.37,
+    "id": "w11"
+  },
+  {
+    "text": "their",
+    "start": 3.41,
+    "end": 3.77,
+    "id": "w12"
+  },
+  {
+    "text": "solution",
+    "start": 3.77,
+    "end": 4.35,
+    "id": "w13"
+  },
+  {
+    "text": "is",
+    "start": 4.35,
+    "end": 4.49,
+    "id": "w14"
+  },
+  {
+    "text": "very",
+    "start": 4.49,
+    "end": 4.78,
+    "id": "w15"
+  },
+  {
+    "text": "easy.",
+    "start": 4.78,
+    "end": 5.3,
+    "id": "w16"
+  },
+  {
+    "text": "First,",
+    "start": 5.32,
+    "end": 5.78,
+    "id": "w17"
+  },
+  {
+    "text": "spam",
+    "start": 5.78,
+    "end": 6.04,
+    "id": "w18"
+  },
+  {
+    "text": "emails.",
+    "start": 6.04,
+    "end": 6.64,
+    "id": "w19"
+  },
+  {
+    "text": "For",
+    "start": 6.64,
+    "end": 6.84,
+    "id": "w20"
+  },
+  {
+    "text": "them,",
+    "start": 6.84,
+    "end": 7.24,
+    "id": "w21"
+  },
+  {
+    "text": "click",
+    "start": 7.24,
+    "end": 7.58,
+    "id": "w22"
+  },
+  {
+    "text": "on",
+    "start": 7.58,
+    "end": 7.71,
+    "id": "w23"
+  },
+  {
+    "text": "the",
+    "start": 7.71,
+    "end": 7.91,
+    "id": "w24"
+  },
+  {
+    "text": "icon.",
+    "start": 7.91,
+    "end": 8.44,
+    "id": "w25"
+  },
+  {
+    "text": "Click",
+    "start": 8.44,
+    "end": 8.74,
+    "id": "w26"
+  },
+  {
+    "text": "on",
+    "start": 8.74,
+    "end": 8.86,
+    "id": "w27"
+  },
+  {
+    "text": "the",
+    "start": 8.86,
+    "end": 9.04,
+    "id": "w28"
+  },
+  {
+    "text": "Manage",
+    "start": 9.04,
+    "end": 9.4,
+    "id": "w29"
+  },
+  {
+    "text": "subscription.",
+    "start": 9.4,
+    "end": 10.32,
+    "id": "w30"
+  },
+  {
+    "text": "And",
+    "start": 10.32,
+    "end": 10.53,
+    "id": "w31"
+  },
+  {
+    "text": "unsubscribe",
+    "start": 10.53,
+    "end": 11.31,
+    "id": "w32"
+  },
+  {
+    "text": "everyone.",
+    "start": 11.31,
+    "end": 12.12,
+    "id": "w33"
+  },
+  {
+    "text": "Second,",
+    "start": 12.12,
+    "end": 12.7,
+    "id": "w34"
+  },
+  {
+    "text": "finish",
+    "start": 12.7,
+    "end": 13.14,
+    "id": "w35"
+  },
+  {
+    "text": "the",
+    "start": 13.14,
+    "end": 13.36,
+    "id": "w36"
+  },
+  {
+    "text": "storage.",
+    "start": 13.36,
+    "end": 14.12,
+    "id": "w37"
+  },
+  {
+    "text": "After",
+    "start": 14.12,
+    "end": 14.35,
+    "id": "w38"
+  },
+  {
+    "text": "which,",
+    "start": 14.35,
+    "end": 14.67,
+    "id": "w39"
+  },
+  {
+    "text": "you",
+    "start": 14.67,
+    "end": 14.81,
+    "id": "w40"
+  },
+  {
+    "text": "don't",
+    "start": 14.81,
+    "end": 15.04,
+    "id": "w41"
+  },
+  {
+    "text": "get",
+    "start": 15.04,
+    "end": 15.18,
+    "id": "w42"
+  },
+  {
+    "text": "a",
+    "start": 15.18,
+    "end": 15.22,
+    "id": "w43"
+  },
+  {
+    "text": "new",
+    "start": 15.22,
+    "end": 15.36,
+    "id": "w44"
+  },
+  {
+    "text": "email.",
+    "start": 15.36,
+    "end": 15.8,
+    "id": "w45"
+  },
+  {
+    "text": "Click",
+    "start": 15.8,
+    "end": 16.23,
+    "id": "w46"
+  },
+  {
+    "text": "on",
+    "start": 16.23,
+    "end": 16.4,
+    "id": "w47"
+  },
+  {
+    "text": "the",
+    "start": 16.4,
+    "end": 16.66,
+    "id": "w48"
+  },
+  {
+    "text": "search",
+    "start": 16.66,
+    "end": 17.17,
+    "id": "w49"
+  },
+  {
+    "text": "bar.",
+    "start": 17.18,
+    "end": 17.7,
+    "id": "w50"
+  },
+  {
+    "text": "And",
+    "start": 17.72,
+    "end": 17.78,
+    "id": "w51"
+  },
+  {
+    "text": "then,",
+    "start": 17.78,
+    "end": 17.9,
+    "id": "w52"
+  },
+  {
+    "text": "click",
+    "start": 17.9,
+    "end": 18,
+    "id": "w53"
+  },
+  {
+    "text": "on",
+    "start": 18,
+    "end": 18.04,
+    "id": "w54"
+  },
+  {
+    "text": "the",
+    "start": 18.04,
+    "end": 18.1,
+    "id": "w55"
+  },
+  {
+    "text": "date.",
+    "start": 18.1,
+    "end": 18.28,
+    "id": "w56"
+  },
+  {
+    "text": "And",
+    "start": 18.28,
+    "end": 18.39,
+    "id": "w57"
+  },
+  {
+    "text": "then,",
+    "start": 18.39,
+    "end": 18.6,
+    "id": "w58"
+  },
+  {
+    "text": "click",
+    "start": 18.6,
+    "end": 18.78,
+    "id": "w59"
+  },
+  {
+    "text": "on",
+    "start": 18.78,
+    "end": 18.85,
+    "id": "w60"
+  },
+  {
+    "text": "the",
+    "start": 18.85,
+    "end": 18.96,
+    "id": "w61"
+  },
+  {
+    "text": "older",
+    "start": 18.96,
+    "end": 19.14,
+    "id": "w62"
+  },
+  {
+    "text": "than",
+    "start": 19.14,
+    "end": 19.28,
+    "id": "w63"
+  },
+  {
+    "text": "the",
+    "start": 19.28,
+    "end": 19.38,
+    "id": "w64"
+  },
+  {
+    "text": "year.",
+    "start": 19.39,
+    "end": 19.68,
+    "id": "w65"
+  },
+  {
+    "text": "And",
+    "start": 19.68,
+    "end": 19.89,
+    "id": "w66"
+  },
+  {
+    "text": "then,",
+    "start": 19.89,
+    "end": 20.29,
+    "id": "w67"
+  },
+  {
+    "text": "you",
+    "start": 20.33,
+    "end": 20.53,
+    "id": "w68"
+  },
+  {
+    "text": "have",
+    "start": 20.53,
+    "end": 20.82,
+    "id": "w69"
+  },
+  {
+    "text": "to",
+    "start": 20.82,
+    "end": 20.96,
+    "id": "w70"
+  },
+  {
+    "text": "search",
+    "start": 20.96,
+    "end": 21.39,
+    "id": "w71"
+  },
+  {
+    "text": "exactly",
+    "start": 21.39,
+    "end": 21.89,
+    "id": "w72"
+  },
+  {
+    "text": "this",
+    "start": 21.89,
+    "end": 22.18,
+    "id": "w73"
+  },
+  {
+    "text": "email.",
+    "start": 22.18,
+    "end": 22.8,
+    "id": "w74"
+  },
+  {
+    "text": "You",
+    "start": 22.8,
+    "end": 23.01,
+    "id": "w75"
+  },
+  {
+    "text": "can",
+    "start": 23.01,
+    "end": 23.22,
+    "id": "w76"
+  },
+  {
+    "text": "glance",
+    "start": 23.22,
+    "end": 23.65,
+    "id": "w77"
+  },
+  {
+    "text": "at",
+    "start": 23.65,
+    "end": 23.79,
+    "id": "w78"
+  },
+  {
+    "text": "the",
+    "start": 23.79,
+    "end": 24,
+    "id": "w79"
+  },
+  {
+    "text": "email.",
+    "start": 24,
+    "end": 24.6,
+    "id": "w80"
+  },
+  {
+    "text": "Or",
+    "start": 24.6,
+    "end": 24.76,
+    "id": "w81"
+  },
+  {
+    "text": "you",
+    "start": 24.76,
+    "end": 25,
+    "id": "w82"
+  },
+  {
+    "text": "can",
+    "start": 25,
+    "end": 25.21,
+    "id": "w83"
+  },
+  {
+    "text": "select",
+    "start": 25.25,
+    "end": 25.7,
+    "id": "w84"
+  },
+  {
+    "text": "all",
+    "start": 25.7,
+    "end": 25.95,
+    "id": "w85"
+  },
+  {
+    "text": "and",
+    "start": 25.95,
+    "end": 26.19,
+    "id": "w86"
+  },
+  {
+    "text": "delete",
+    "start": 26.19,
+    "end": 26.66,
+    "id": "w87"
+  },
+  {
+    "text": "it.",
+    "start": 26.66,
+    "end": 27.08,
+    "id": "w88"
+  }
+]
