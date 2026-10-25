@@ -6,7 +6,7 @@ Your accumulated taste for video work in this workspace. Populated over time via
 
 Each bullet should end with a date in parentheses — that traces back to the per-session log under `_reference/feedback-logs/`.
 
-> 🚧 **This file starts empty.** It fills in automatically as you finish videos and run `/feedback` to capture what worked and what didn't. The more you use it, the better the workspace matches your taste without you repeating yourself.
+> Seeded at setup with PovPushkar's stated editing style. It keeps growing as you finish videos and run `/feedback`, so the workspace matches your taste more closely over time without you repeating yourself.
 
 ---
 
@@ -14,40 +14,52 @@ Each bullet should end with a date in parentheses — that traces back to the pe
 
 _(colors, typography, density, placement — populated by /feedback over time)_
 
-- _no rules captured yet_
+- Premium, clean, modern, minimalist — Apple-like. Generous whitespace, restrained palette, crisp typography (2026-10-25, stated at setup)
+- Natural and engaging, not overly polished or ad-like — it should feel like a creator talking, not a commercial (2026-10-25, stated at setup)
+- Motion graphics only when they help explain or emphasize something (specs, comparisons, steps, a key number) — never as decoration (2026-10-25, stated at setup)
+- This minimalist brief overrides the busier `MOTION_PHILOSOPHY.md` texture defaults (perspective grid, crosshairs, grain, chrome text) — keep its discipline (one idea per beat, clean transitions), drop the clutter (2026-10-25, stated at setup)
 
 ## Pacing
 
 _(scene length, cuts vs. transitions, breathing room — populated by /feedback over time)_
 
-- _no rules captured yet_
+- Remove long pauses, dead air, and bad/repeated takes — but keep natural breathing room so the delivery stays human, not jump-cut-every-word (2026-10-25, stated at setup)
+- Keep edits simple — avoid overcomplicated sequences (2026-10-25, stated at setup)
 
 ## Captions
 
 _(style, color, sync tightness, word-by-word vs. phrase chunks — populated by /feedback over time)_
 
-- _no rules captured yet_
+- Bold, highly readable captions in white with a tasteful electric-lime accent on key words (2026-10-25, stated at setup)
+- Captions must handle Hinglish — transcribe what was actually said (Hindi words in Roman script as spoken), never "translate" or rewrite the speech (2026-10-25, stated at setup)
 
 ## Transitions
 
 _(preferred / avoid — populated by /feedback over time)_
 
-- _no rules captured yet_
+- Clean, simple transitions — vary them; never repeat the same transition back-to-back across a video (2026-10-25, stated at setup)
+- Avoid excessive zooms (punch-ins sparingly, only for emphasis) (2026-10-25, stated at setup)
 
 ## Audio
 
 _(music vibe, voiceover style, SFX, mix — populated by /feedback over time)_
 
-- _no rules captured yet_
+- Preserve PovPushkar's original voice — no voice replacement or TTS over their speech (2026-10-25, stated at setup)
+- SFX only when they genuinely add something; default to fewer (2026-10-25, stated at setup)
 
 ## Brand
 
 _(logo treatment, hashtags, handles, brand-tokens overrides — populated by /feedback over time)_
 
-- _no rules captured yet_
+- White text, electric-lime accent, clean minimalist base; background color confirmed in setup Step 4 (exact tokens in `assets/brand-tokens.css`) (2026-10-25, stated at setup)
+- Handles: @povpushkar (Instagram), Pov Pushkar (YouTube) (2026-10-25, stated at setup)
 
 ## Avoid
 
 _(anti-patterns to never repeat — populated by /feedback over time)_
 
-- _no rules captured yet_
+- Excessive zooms (2026-10-25, stated at setup)
+- Repetitive transitions (2026-10-25, stated at setup)
+- Unnecessary sound effects (2026-10-25, stated at setup)
+- Overcomplicated edits / decorative motion graphics (2026-10-25, stated at setup)
+- Ad-like, over-polished feel (2026-10-25, stated at setup)
