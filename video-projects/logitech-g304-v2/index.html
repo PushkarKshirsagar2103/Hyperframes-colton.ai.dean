@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="en" data-resolution="portrait">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=1080, height=1920" />
+<script src="assets/vendor/gsap.min.js"></script>
+<style>
+:root{--ink:#0E0E0F;--paper:#F5F3EF;--grey:#8C8C8C;--accent:#FF7A1A;--line:rgba(245,243,239,0.10)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden;background:transparent}
+#root{position:relative;width:1080px;height:1920px;font-family:"Inter",sans-serif;color:var(--paper)}
+/* captions */
+.cg{position:absolute;left:90px;right:150px;top:1440px;height:170px;display:flex;align-items:center;justify-content:center;flex-wrap:wrap;gap:0 17px;text-align:center;opacity:0;isolation:isolate}
+.cg::before{content:"";position:absolute;left:50%;top:50%;width:900px;height:190px;transform:translate(-50%,-50%);z-index:-1;
+  background:radial-gradient(closest-side,rgba(14,14,15,0.42),rgba(14,14,15,0))}
+.w{font-weight:800;font-size:var(--fs,64px);line-height:1.12;letter-spacing:-0.018em;color:var(--grey);text-shadow:0 2px 10px rgba(0,0,0,0.45)}
+/* cards */
+.card{position:absolute;left:150px;right:150px;top:214px;padding:30px 40px 32px;border-radius:30px;background:rgba(14,14,15,0.80);
+  border:1px solid var(--line);box-shadow:0 16px 44px rgba(0,0,0,0.30);opacity:0}
+.lbl{font-weight:600;font-size:22px;letter-spacing:0.13em;text-transform:uppercase;color:var(--grey);display:flex;align-items:center;gap:12px}
+.lbl .pip{width:10px;height:10px;border-radius:50%;background:var(--accent)}
+.val{display:flex;align-items:baseline;gap:12px;margin-top:12px;font-weight:800;font-size:104px;letter-spacing:-0.035em;line-height:1;font-variant-numeric:tabular-nums}
+.val .u{font-size:42px;font-weight:700;color:var(--paper);letter-spacing:-0.01em;opacity:0.85}
+.acc{color:var(--accent)}
+.rule{height:3px;width:72px;background:var(--accent);border-radius:2px;margin-top:20px;transform-origin:0 50%}
+#head .ttl{margin-top:10px;font-weight:800;font-size:86px;letter-spacing:-0.035em;line-height:1.02;display:flex;gap:22px}
+#head .ttl span{display:inline-block}
+/* contrast card */
+#cmp .rows{margin-top:14px;position:relative;height:120px}
+.r{position:absolute;left:0;right:0;display:flex;align-items:center;gap:18px;font-weight:700;font-size:44px;letter-spacing:-0.012em;height:58px;opacity:0}
+.r .tx{position:relative}
+.r.neg .tx{color:var(--grey)}
+.r .strike{position:absolute;left:-4px;right:-4px;top:52%;height:4px;background:var(--grey);border-radius:2px;transform:scaleX(0);transform-origin:0 50%}
+.r .ck{width:34px;height:34px;flex:none}
+#cmp .lbl2{position:absolute;top:30px;left:40px;opacity:0}
+/* callouts */
+svg#co{position:absolute;inset:0;width:1080px;height:1920px;overflow:visible}
+.co-card{position:absolute;padding:20px 28px 22px;border-radius:24px;background:rgba(14,14,15,0.80);border:1px solid var(--line);box-shadow:0 12px 34px rgba(0,0,0,0.28);opacity:0}
+.co-card .t{font-weight:800;font-size:44px;letter-spacing:-0.02em;margin-top:6px;white-space:nowrap}
+.co-card .s{font-weight:700;font-size:32px;margin-top:8px;white-space:nowrap;color:var(--paper)}
+.co-card .s span{display:inline-block;opacity:0}
+</style>
+</head>
+<body>
+<div id="root" data-composition-id="main" data-start="0" data-duration="48.033" data-width="1080" data-height="1920">
+ <div id="layer" class="clip" data-start="0" data-duration="48.033" data-track-index="0" style="position:absolute;inset:0">
+  <div id="caps"></div>
+
+  <div class="card" id="head"><div class="lbl"><span class="pip"></span>Wireless gaming mouse</div>
+    <div class="ttl"><span id="hw1">Logitech</span><span id="hw2" class="acc">G304</span></div><div class="rule" id="hrule"></div></div>
+
+  <div class="card" id="cmp">
+    <div class="lbl" id="cl1"><span class="pip"></span>Not only</div>
+    <div class="lbl lbl2" id="cl2"><span class="pip"></span>Tumhe chahiye</div>
+    <div class="rows">
+      <div class="r neg" id="n1" style="top:0"><span class="tx">15 extra buttons<span class="strike" id="s1"></span></span></div>
+      <div class="r neg" id="n2" style="top:62px"><span class="tx">RGB lighting<span class="strike" id="s2"></span></span></div>
+      <div class="r" id="c1" style="top:0px"><svg class="ck" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15.5" fill="none" stroke="#FF7A1A" stroke-width="2.5"/><path d="M10 17.5l4.6 4.6L24.5 12" fill="none" stroke="#FF7A1A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="tx">Good tracking</span></div>
+      <div class="r" id="c2" style="top:62px"><svg class="ck" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15.5" fill="none" stroke="#FF7A1A" stroke-width="2.5"/><path d="M10 17.5l4.6 4.6L24.5 12" fill="none" stroke="#FF7A1A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="tx">Low latency</span></div>
+      <div class="r" id="c3" style="top:124px"><svg class="ck" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15.5" fill="none" stroke="#FF7A1A" stroke-width="2.5"/><path d="M10 17.5l4.6 4.6L24.5 12" fill="none" stroke="#FF7A1A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="tx">Comfortable ergonomics</span></div>
+      <div class="r" id="c4" style="top:186px"><svg class="ck" viewBox="0 0 34 34"><circle cx="17" cy="17" r="15.5" fill="none" stroke="#FF7A1A" stroke-width="2.5"/><path d="M10 17.5l4.6 4.6L24.5 12" fill="none" stroke="#FF7A1A" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/></svg><span class="tx">Reliability</span></div>
+    </div>
+  </div>
+
+  <div class="card" id="hz"><div class="lbl"><span class="pip"></span>Polling rate</div><div class="val"><span class="acc">1000</span><span class="u">Hz</span></div><div class="rule"></div></div>
+  <div class="card" id="bat"><div class="lbl"><span class="pip"></span>On one AA battery</div><div class="val"><span>≈<span class="acc" id="batn">0</span></span><span class="u">hours</span></div><div class="rule"></div></div>
+  <div class="card" id="wt"><div class="lbl"><span class="pip"></span>With the battery</div><div class="val"><span class="acc">99</span><span class="u">g</span></div><div class="rule"></div></div>
+  <div class="card" id="pr"><div class="lbl"><span class="pip"></span>Retail price</div><div class="val" style="font-size:96px">Under&nbsp;<span class="acc">₹3,000</span></div><div class="rule"></div></div>
+
+  <svg id="co" viewBox="0 0 1080 1920">
+    <line id="hl" x1="0" y1="0" x2="600" y2="300" stroke="#FF7A1A" stroke-width="3" stroke-linecap="round" stroke-dasharray="1400" stroke-dashoffset="1400" opacity="0"/>
+    <circle id="hd" cx="0" cy="0" r="10" fill="#FF7A1A" stroke="#F5F3EF" stroke-width="3" opacity="0"/>
+    <line id="dl" x1="0" y1="0" x2="620" y2="336" stroke="#FF7A1A" stroke-width="3" stroke-linecap="round" stroke-dasharray="1400" stroke-dashoffset="1400" opacity="0"/>
+    <circle id="dd" cx="0" cy="0" r="10" fill="#FF7A1A" stroke="#F5F3EF" stroke-width="3" opacity="0"/>
+  </svg>
+  <div class="co-card" id="hc" style="left:600px;top:186px"><div class="lbl">Pro-grade</div><div class="t">HERO sensor</div></div>
+  <div class="co-card" id="dc" style="left:620px;top:168px"><div class="lbl">Adjustable</div><div class="t">DPI button</div>
+    <div class="s"><span id="dv1">5 levels</span> <span id="dv2">· up to <b class="acc">12,000</b></span></div></div>
+ </div>
+</div>
+<script>
+const DATA={"total": 48.03333333333333, "groups": [{"words": [{"t": "Well,", "s": 0.14, "e": 0.74, "lime": false, "acc": false}], "start": 0.08, "end": 1.11}, {"words": [{"t": "this", "s": 1.17, "e": 1.406, "lime": false, "acc": false}, {"t": "is", "s": 1.406, "e": 1.556, "lime": false, "acc": false}, {"t": "the", "s": 1.556, "e": 1.749, "lime": false, "acc": false}, {"t": "best", "s": 1.749, "e": 1.985, "lime": true, "acc": true}], "start": 1.11, "end": 1.925}, {"words": [{"t": "wireless", "s": 1.985, "e": 2.393, "lime": false, "acc": false}, {"t": "gaming", "s": 2.393, "e": 2.715, "lime": false, "acc": false}, {"t": "mouse", "s": 2.715, "e": 2.994, "lime": false, "acc": false}], "start": 1.925, "end": 2.934}, {"words": [{"t": "you", "s": 2.994, "e": 3.187, "lime": false, "acc": false}, {"t": "can", "s": 3.187, "e": 3.38, "lime": false, "acc": false}], "start": 2.934, "end": 3.55}, {"words": [{"t": "get", "s": 3.61, "e": 3.763, "lime": false, "acc": false}, {"t": "in", "s": 3.763, "e": 3.882, "lime": false, "acc": false}, {"t": "budget.", "s": 3.882, "e": 4.17, "lime": true, "acc": true}], "start": 3.55, "end": 4.433}, {"words": [{"t": "And", "s": 4.493, "e": 4.688, "lime": false, "acc": false}, {"t": "gaming", "s": 4.688, "e": 5.013, "lime": false, "acc": false}], "start": 4.433, "end": 5.143}, {"words": [{"t": "is", "s": 5.203, "e": 5.373, "lime": false, "acc": false}, {"t": "not", "s": 5.373, "e": 5.591, "lime": false, "acc": false}, {"t": "only", "s": 5.591, "e": 5.857, "lime": false, "acc": false}, {"t": "about", "s": 5.857, "e": 6.172, "lime": false, "acc": false}], "start": 5.143, "end": 6.112}, {"words": [{"t": "15", "s": 6.172, "e": 6.342, "lime": true, "acc": false}, {"t": "extra", "s": 6.342, "e": 6.657, "lime": false, "acc": false}, {"t": "buttons", "s": 6.657, "e": 7.069, "lime": false, "acc": false}], "start": 6.112, "end": 7.009}, {"words": [{"t": "and", "s": 7.069, "e": 7.287, "lime": false, "acc": false}, {"t": "RGB", "s": 7.287, "e": 7.505, "lime": false, "acc": false}, {"t": "lighting.", "s": 7.505, "e": 8.013, "lime": false, "acc": false}], "start": 7.009, "end": 8.423}, {"words": [{"t": "Tumhe", "s": 8.483, "e": 8.754, "lime": true, "acc": false}, {"t": "chahiye", "s": 8.754, "e": 9.108, "lime": false, "acc": false}], "start": 8.423, "end": 9.048}, {"words": [{"t": "good", "s": 9.108, "e": 9.336, "lime": false, "acc": false}, {"t": "tracking,", "s": 9.336, "e": 9.773, "lime": true, "acc": true}], "start": 9.048, "end": 9.833}, {"words": [{"t": "low", "s": 9.893, "e": 10.132, "lime": false, "acc": false}, {"t": "latency,", "s": 10.132, "e": 10.637, "lime": true, "acc": false}], "start": 9.833, "end": 10.577}, {"words": [{"t": "comfortable", "s": 10.637, "e": 11.301, "lime": false, "acc": false}, {"t": "ergonomics", "s": 11.301, "e": 11.911, "lime": false, "acc": false}], "start": 10.577, "end": 11.851}, {"words": [{"t": "and", "s": 11.911, "e": 12.15, "lime": false, "acc": false}, {"t": "most", "s": 12.15, "e": 12.443, "lime": false, "acc": false}, {"t": "importantly", "s": 12.443, "e": 13.106, "lime": false, "acc": false}], "start": 11.851, "end": 13.046}, {"words": [{"t": "reliability.", "s": 13.106, "e": 13.823, "lime": true, "acc": true}], "start": 13.046, "end": 14.043}, {"words": [{"t": "And", "s": 14.103, "e": 14.331, "lime": false, "acc": false}, {"t": "this", "s": 14.331, "e": 14.609, "lime": false, "acc": false}, {"t": "Logitech", "s": 14.609, "e": 15.089, "lime": false, "acc": false}, {"t": "G304", "s": 15.089, "e": 15.367, "lime": true, "acc": true}], "start": 14.043, "end": 15.307}, {"words": [{"t": "provides", "s": 15.367, "e": 15.848, "lime": false, "acc": false}, {"t": "you", "s": 15.848, "e": 16.075, "lime": false, "acc": false}, {"t": "exactly", "s": 16.075, "e": 16.505, "lime": false, "acc": false}, {"t": "that.", "s": 16.505, "e": 16.833, "lime": false, "acc": false}], "start": 15.307, "end": 17.05}, {"words": [{"t": "It", "s": 17.11, "e": 17.251, "lime": false, "acc": false}, {"t": "comes", "s": 17.251, "e": 17.514, "lime": false, "acc": false}, {"t": "with", "s": 17.514, "e": 17.736, "lime": false, "acc": false}, {"t": "a", "s": 17.736, "e": 17.837, "lime": false, "acc": false}], "start": 17.05, "end": 17.777}, {"words": [{"t": "pro-grade", "s": 17.837, "e": 18.261, "lime": false, "acc": false}, {"t": "HERO", "s": 18.261, "e": 18.483, "lime": true, "acc": true}, {"t": "sensor", "s": 18.483, "e": 18.786, "lime": false, "acc": false}], "start": 17.777, "end": 18.726}, {"words": [{"t": "and", "s": 18.786, "e": 18.967, "lime": false, "acc": false}, {"t": "LIGHTSPEED", "s": 18.967, "e": 19.432, "lime": true, "acc": false}], "start": 18.726, "end": 19.372}, {"words": [{"t": "wireless", "s": 19.432, "e": 19.815, "lime": false, "acc": false}, {"t": "technology,", "s": 19.815, "e": 20.32, "lime": false, "acc": false}], "start": 19.372, "end": 20.53}, {"words": [{"t": "plus", "s": 20.59, "e": 20.823, "lime": false, "acc": false}, {"t": "1000", "s": 20.823, "e": 21.056, "lime": true, "acc": true}, {"t": "Hz", "s": 21.056, "e": 21.204, "lime": false, "acc": false}, {"t": "polling", "s": 21.204, "e": 21.565, "lime": false, "acc": false}, {"t": "rate.", "s": 21.565, "e": 21.84, "lime": false, "acc": false}], "start": 20.53, "end": 22.1}, {"words": [{"t": "Input", "s": 22.16, "e": 22.425, "lime": false, "acc": false}, {"t": "lag", "s": 22.425, "e": 22.609, "lime": true, "acc": false}, {"t": "ka", "s": 22.609, "e": 22.752, "lime": false, "acc": false}, {"t": "toh", "s": 22.752, "e": 22.936, "lime": false, "acc": false}], "start": 22.1, "end": 22.876}, {"words": [{"t": "sawal", "s": 22.936, "e": 23.202, "lime": false, "acc": false}, {"t": "hi", "s": 23.202, "e": 23.345, "lime": false, "acc": false}, {"t": "nahi,", "s": 23.345, "e": 23.61, "lime": false, "acc": false}], "start": 22.876, "end": 23.94}, {"words": [{"t": "but", "s": 24.0, "e": 24.204, "lime": false, "acc": false}, {"t": "the", "s": 24.204, "e": 24.409, "lime": false, "acc": false}, {"t": "most", "s": 24.409, "e": 24.658, "lime": false, "acc": false}, {"t": "underrated", "s": 24.658, "e": 25.18, "lime": false, "acc": false}], "start": 23.94, "end": 25.12}, {"words": [{"t": "feature", "s": 25.18, "e": 25.566, "lime": true, "acc": false}, {"t": "is", "s": 25.566, "e": 25.725, "lime": false, "acc": false}, {"t": "its", "s": 25.725, "e": 25.929, "lime": false, "acc": false}], "start": 25.12, "end": 25.869}, {"words": [{"t": "battery", "s": 25.929, "e": 26.315, "lime": true, "acc": true}, {"t": "life.", "s": 26.315, "e": 26.61, "lime": false, "acc": false}], "start": 25.869, "end": 26.87}, {"words": [{"t": "On", "s": 26.93, "e": 27.131, "lime": false, "acc": false}, {"t": "one", "s": 27.131, "e": 27.389, "lime": false, "acc": false}, {"t": "single", "s": 27.389, "e": 27.82, "lime": true, "acc": false}], "start": 26.87, "end": 27.76}, {"words": [{"t": "AA", "s": 27.82, "e": 28.021, "lime": false, "acc": false}, {"t": "battery,", "s": 28.021, "e": 28.566, "lime": false, "acc": false}], "start": 27.76, "end": 28.506}, {"words": [{"t": "it", "s": 28.566, "e": 28.767, "lime": false, "acc": false}, {"t": "can", "s": 28.767, "e": 29.025, "lime": false, "acc": false}, {"t": "go", "s": 29.025, "e": 29.226, "lime": false, "acc": false}, {"t": "up", "s": 29.226, "e": 29.427, "lime": false, "acc": false}, {"t": "to", "s": 29.427, "e": 29.628, "lime": false, "acc": false}], "start": 28.506, "end": 29.568}, {"words": [{"t": "almost", "s": 29.628, "e": 30.059, "lime": false, "acc": false}, {"t": "250", "s": 30.059, "e": 30.317, "lime": true, "acc": true}, {"t": "hours", "s": 30.317, "e": 30.69, "lime": false, "acc": false}], "start": 29.568, "end": 30.75}, {"words": [{"t": "and", "s": 30.81, "e": 31.086, "lime": false, "acc": false}, {"t": "it", "s": 31.086, "e": 31.301, "lime": false, "acc": false}, {"t": "has", "s": 31.301, "e": 31.577, "lime": false, "acc": false}, {"t": "adjustable", "s": 31.577, "e": 32.282, "lime": false, "acc": false}], "start": 30.75, "end": 32.222}, {"words": [{"t": "5-level", "s": 32.282, "e": 32.803, "lime": true, "acc": false}, {"t": "DPI", "s": 32.803, "e": 33.079, "lime": false, "acc": false}], "start": 32.222, "end": 33.019}, {"words": [{"t": "up", "s": 33.079, "e": 33.294, "lime": false, "acc": false}, {"t": "to", "s": 33.294, "e": 33.509, "lime": false, "acc": false}, {"t": "12,000.", "s": 33.509, "e": 34.03, "lime": true, "acc": true}], "start": 33.019, "end": 34.34}, {"words": [{"t": "Toh", "s": 34.4, "e": 34.546, "lime": false, "acc": false}, {"t": "agar", "s": 34.546, "e": 34.725, "lime": false, "acc": false}, {"t": "looks", "s": 34.725, "e": 34.936, "lime": true, "acc": false}, {"t": "ki", "s": 34.936, "e": 35.05, "lime": false, "acc": false}], "start": 34.34, "end": 34.99}, {"words": [{"t": "baat", "s": 35.05, "e": 35.229, "lime": false, "acc": false}, {"t": "kare,", "s": 35.229, "e": 35.44, "lime": false, "acc": false}], "start": 34.99, "end": 35.51}, {"words": [{"t": "toh", "s": 35.57, "e": 35.785, "lime": false, "acc": false}, {"t": "it", "s": 35.785, "e": 35.953, "lime": false, "acc": false}, {"t": "has", "s": 35.953, "e": 36.168, "lime": false, "acc": false}, {"t": "simple,", "s": 36.168, "e": 36.575, "lime": false, "acc": false}], "start": 35.51, "end": 36.515}, {"words": [{"t": "sleek", "s": 36.575, "e": 36.886, "lime": false, "acc": false}, {"t": "and", "s": 36.886, "e": 37.102, "lime": false, "acc": false}, {"t": "clean", "s": 37.102, "e": 37.413, "lime": true, "acc": false}, {"t": "design,", "s": 37.413, "e": 37.82, "lime": false, "acc": false}], "start": 36.515, "end": 37.76}, {"words": [{"t": "and", "s": 37.82, "e": 38.035, "lime": false, "acc": false}, {"t": "especially", "s": 38.035, "e": 38.585, "lime": false, "acc": false}], "start": 37.76, "end": 38.525}, {"words": [{"t": "this", "s": 38.585, "e": 38.849, "lime": false, "acc": false}, {"t": "white", "s": 38.849, "e": 39.16, "lime": false, "acc": false}, {"t": "color", "s": 39.16, "e": 39.471, "lime": false, "acc": false}], "start": 38.525, "end": 39.411}, {"words": [{"t": "looks", "s": 39.471, "e": 39.782, "lime": false, "acc": false}, {"t": "very", "s": 39.782, "e": 40.045, "lime": false, "acc": false}, {"t": "premium.", "s": 40.045, "e": 40.5, "lime": true, "acc": true}], "start": 39.411, "end": 40.87}, {"words": [{"t": "Also,", "s": 40.93, "e": 41.221, "lime": false, "acc": false}, {"t": "this", "s": 41.221, "e": 41.467, "lime": false, "acc": false}, {"t": "mouse", "s": 41.467, "e": 41.758, "lime": false, "acc": false}], "start": 40.87, "end": 41.698}, {"words": [{"t": "weighs", "s": 41.758, "e": 42.094, "lime": false, "acc": false}, {"t": "only", "s": 42.094, "e": 42.34, "lime": false, "acc": false}, {"t": "99", "s": 42.34, "e": 42.496, "lime": true, "acc": true}, {"t": "grams", "s": 42.496, "e": 42.787, "lime": false, "acc": false}], "start": 41.698, "end": 42.727}, {"words": [{"t": "with", "s": 42.787, "e": 43.033, "lime": false, "acc": false}, {"t": "the", "s": 43.033, "e": 43.235, "lime": false, "acc": false}, {"t": "battery,", "s": 43.235, "e": 43.66, "lime": false, "acc": false}], "start": 42.727, "end": 44.04}, {"words": [{"t": "and", "s": 44.1, "e": 44.335, "lime": false, "acc": false}, {"t": "all", "s": 44.335, "e": 44.57, "lime": false, "acc": false}, {"t": "this,", "s": 44.57, "e": 44.91, "lime": false, "acc": false}, {"t": "while", "s": 44.91, "e": 45.25, "lime": false, "acc": false}], "start": 44.04, "end": 45.19}, {"words": [{"t": "retailing", "s": 45.25, "e": 45.799, "lime": false, "acc": false}, {"t": "just", "s": 45.799, "e": 46.086, "lime": false, "acc": false}, {"t": "under", "s": 46.086, "e": 46.426, "lime": false, "acc": false}, {"t": "₹3,000.", "s": 46.426, "e": 46.87, "lime": true, "acc": true}], "start": 45.19, "end": 46.94}, {"words": [{"t": "That's", "s": 47.0, "e": 47.278, "lime": false, "acc": false}, {"t": "why", "s": 47.278, "e": 47.445, "lime": false, "acc": false}, {"t": "I", "s": 47.445, "e": 47.538, "lime": false, "acc": false}, {"t": "believe…", "s": 47.538, "e": 47.89, "lime": true, "acc": false}], "start": 46.94, "end": 48.013}]}, HERO=[[17.4333, 492.0, 670.0], [17.4667, 493.6, 670.0], [17.5, 493.6, 670.0], [17.5333, 493.6, 670.0], [17.5667, 493.6, 670.0], [17.6, 494.4, 670.0], [17.6333, 495.2, 671.6], [17.6667, 496.8, 674.8], [17.7, 497.6, 679.6], [17.7333, 499.2, 686.0], [17.7667, 501.6, 694.0], [17.8, 504.8, 700.4], [17.8333, 507.2, 706.8], [17.8667, 510.4, 711.6], [17.9, 512.8, 713.2], [17.9333, 514.4, 711.6], [17.9667, 515.2, 708.4], [18.0, 516.8, 702.0], [18.0333, 517.6, 694.0], [18.0667, 519.2, 684.4], [18.1, 521.6, 674.8], [18.1333, 524.8, 665.2], [18.1667, 528.8, 654.0], [18.2, 533.6, 642.8], [18.2333, 538.4, 633.2], [18.2667, 543.2, 623.6], [18.3, 548.0, 614.0], [18.3333, 552.0, 606.0], [18.3667, 556.0, 598.0], [18.4, 559.2, 591.6], [18.4333, 561.6, 585.2], [18.4667, 562.4, 580.4], [18.5, 561.6, 577.2], [18.5333, 559.2, 575.6], [18.5667, 555.2, 575.6], [18.6, 549.6, 578.8], [18.6333, 542.4, 583.6], [18.6667, 534.4, 590.0], [18.7, 524.8, 596.4], [18.7333, 514.4, 602.8], [18.7667, 503.2, 607.6], [18.8, 492.0, 612.4], [18.8333, 480.0, 615.6], [18.8667, 468.8, 618.8], [18.9, 458.4, 620.4], [18.9333, 448.8, 622.0], [18.9667, 440.8, 622.0], [19.0, 434.4, 623.6], [19.0333, 431.0, 624.0]], DPI=[[31.55, 518.0, 623.6], [31.5833, 518.0, 622.0], [31.6167, 518.0, 622.0], [31.65, 518.0, 622.0], [31.6833, 518.0, 620.4], [31.7167, 518.0, 618.8], [31.75, 518.0, 617.2], [31.7833, 518.0, 615.6], [31.8167, 518.0, 614.0], [31.85, 518.0, 614.0], [31.8833, 519.6, 614.0], [31.9167, 521.2, 614.0], [31.95, 522.8, 614.0], [31.9833, 524.4, 614.0], [32.0167, 524.4, 614.0], [32.05, 522.8, 615.6], [32.0833, 521.2, 617.2], [32.1167, 519.6, 620.4], [32.15, 518.0, 625.2], [32.1833, 518.0, 630.0], [32.2167, 516.4, 633.2], [32.25, 514.8, 639.6], [32.2833, 511.6, 642.8], [32.3167, 508.4, 644.4], [32.35, 505.2, 646.0], [32.3833, 503.6, 647.6], [32.4167, 502.0, 646.0], [32.45, 503.6, 646.0], [32.4833, 505.2, 646.0], [32.5167, 506.8, 644.4], [32.55, 508.4, 642.8], [32.5833, 505.2, 648.8], [32.6167, 500.4, 654.0], [32.65, 495.6, 659.2], [32.6833, 492.4, 658.8], [32.7167, 490.8, 656.8], [32.75, 494.0, 655.2], [32.7833, 498.8, 648.8], [32.8167, 505.2, 644.0], [32.85, 510.0, 654.4], [32.8833, 513.2, 662.4], [32.9167, 516.4, 664.8], [32.95, 519.6, 668.8], [32.9833, 521.2, 679.2], [33.0167, 521.2, 684.8], [33.05, 519.6, 702.4], [33.0833, 518.0, 719.2], [33.1167, 516.4, 740.8], [33.15, 516.4, 753.6], [33.1833, 518.0, 769.6], [33.2167, 522.8, 772.0], [33.25, 527.6, 778.4], [33.2833, 532.4, 780.0], [33.3167, 535.6, 781.6], [33.35, 538.8, 775.2], [33.3833, 542.0, 770.4], [33.4167, 546.8, 766.4], [33.45, 551.6, 767.2], [33.4833, 556.4, 768.0], [33.5167, 561.2, 766.4], [33.55, 564.4, 768.0], [33.5833, 566.0, 766.4], [33.6167, 566.0, 770.4], [33.65, 567.6, 773.6], [33.6833, 569.2, 788.8], [33.7167, 572.4, 803.2], [33.75, 575.6, 820.0], [33.7833, 580.4, 826.4], [33.8167, 583.6, 835.2], [33.85, 586.8, 838.4], [33.8833, 590.0, 839.2], [33.9167, 593.2, 836.0], [33.95, 593.2, 842.4], [33.9833, 594.0, 844.0]];
+const tl=gsap.timeline({paused:true});
+const caps=document.getElementById("caps");
+DATA.groups.forEach((g,gi)=>{
+  const el=document.createElement("div"); el.className="cg"; el.id="cg-"+gi;
+  const L=g.words.map(w=>w.t).join(" ").length; if(L>24) el.style.setProperty("--fs",(L>27?54:58)+"px");
+  g.words.forEach((w,wi)=>{const s=document.createElement("span"); s.className="w"; s.id="w-"+gi+"-"+wi; s.textContent=w.t; el.appendChild(s);});
+  caps.appendChild(el);
+  tl.fromTo(el,{opacity:0,y:8},{opacity:1,y:0,duration:0.16,ease:"power2.out"},g.start);
+  g.words.forEach((w,wi)=>tl.to("#w-"+gi+"-"+wi,{color:w.acc?"#FF7A1A":"#F5F3EF",duration:0.1,ease:"power1.out"},w.s));
+  tl.to(el,{opacity:0,duration:0.1,ease:"power1.in"},Math.max(g.start+0.16,g.end-0.1));
+  tl.set(el,{opacity:0,visibility:"hidden"},g.end);
+});
+function cardIn(sel,t){tl.fromTo(sel,{opacity:0,y:14},{opacity:1,y:0,duration:0.36,ease:"power3.out"},t);
+  tl.fromTo(sel+" .rule",{scaleX:0},{scaleX:1,duration:0.45,ease:"sine.inOut"},t+0.16);}
+function cardOut(sel,t){tl.to(sel,{opacity:0,y:-8,duration:0.24,ease:"power2.in"},t-0.24); tl.set(sel,{visibility:"hidden"},t);}
+// opening headline
+tl.fromTo("#head",{opacity:0,y:12},{opacity:1,y:0,duration:0.34,ease:"power3.out"},0.12);
+tl.fromTo("#hw1",{opacity:0,y:14},{opacity:1,y:0,duration:0.36,ease:"power2.out"},0.26);
+tl.fromTo("#hw2",{opacity:0,y:14},{opacity:1,y:0,duration:0.36,ease:"power2.out"},0.46);
+tl.fromTo("#hrule",{scaleX:0},{scaleX:1,duration:0.5,ease:"sine.inOut"},0.72);
+cardOut("#head",4.2);
+// contrast card
+tl.fromTo("#cmp",{opacity:0,y:14},{opacity:1,y:0,duration:0.36,ease:"power3.out"},5.32);
+tl.fromTo("#n1",{opacity:0,x:-12},{opacity:1,x:0,duration:0.3,ease:"expo.out"},6.15);
+tl.fromTo("#n2",{opacity:0,x:-12},{opacity:1,x:0,duration:0.3,ease:"expo.out"},7.27);
+tl.to("#s1",{scaleX:1,duration:0.32,ease:"power2.inOut"},7.72);
+tl.to("#s2",{scaleX:1,duration:0.32,ease:"power2.inOut"},7.86);
+tl.to(["#n1","#n2","#cl1"],{opacity:0,duration:0.2,ease:"power1.in"},8.26);
+tl.to("#cmp .rows",{height:244,duration:0.35,ease:"power2.inOut"},8.3);
+tl.fromTo("#cl2",{opacity:0},{opacity:1,duration:0.25,ease:"power1.out"},8.46);
+tl.fromTo("#c1",{opacity:0,x:-12},{opacity:1,x:0,duration:0.3,ease:"expo.out"},9.07);
+tl.fromTo("#c2",{opacity:0,x:-12},{opacity:1,x:0,duration:0.3,ease:"expo.out"},9.85);
+tl.fromTo("#c3",{opacity:0,x:-12},{opacity:1,x:0,duration:0.3,ease:"expo.out"},10.60);
+tl.fromTo("#c4",{opacity:0,x:-12},{opacity:1,x:0,duration:0.3,ease:"expo.out"},13.07);
+tl.to("#c4 .tx",{color:"#FF7A1A",duration:0.2},13.11);
+cardOut("#cmp",13.8);
+// HERO callout (tracked)
+HERO.forEach(([t,x,y])=>{tl.set("#hd",{attr:{cx:x,cy:y}},t); tl.set("#hl",{attr:{x1:x,y1:y}},t);});
+tl.fromTo("#hd",{opacity:0,scale:0.6,transformOrigin:"50% 50%"},{opacity:1,scale:1,duration:0.22,ease:"power2.out"},17.48);
+tl.set("#hl",{opacity:1},17.58); tl.to("#hl",{attr:{"stroke-dashoffset":0},duration:0.36,ease:"power2.inOut"},17.58);
+tl.fromTo("#hc",{opacity:0,y:8},{opacity:1,y:0,duration:0.3,ease:"power3.out"},17.84);
+tl.to(["#hd","#hl","#hc"],{opacity:0,duration:0.2,ease:"power1.in"},18.86); tl.set(["#hd","#hl","#hc"],{visibility:"hidden"},19.08);
+// 1000 Hz
+cardIn("#hz",20.66); cardOut("#hz",22.92);
+// battery count-up
+cardIn("#bat",29.3);
+const cnt={v:0}; tl.to(cnt,{v:250,duration:0.6,ease:"power2.out",onUpdate:()=>{document.getElementById("batn").textContent=Math.round(cnt.v)}},29.46);
+cardOut("#bat",30.72);
+// DPI callout (tracked)
+DPI.forEach(([t,x,y])=>{tl.set("#dd",{attr:{cx:x,cy:y}},t); tl.set("#dl",{attr:{x1:x,y1:y}},t);});
+tl.fromTo("#dd",{opacity:0,scale:0.6,transformOrigin:"50% 50%"},{opacity:1,scale:1,duration:0.22,ease:"power2.out"},31.56);
+tl.set("#dl",{opacity:1},31.64); tl.to("#dl",{attr:{"stroke-dashoffset":0},duration:0.36,ease:"power2.inOut"},31.64);
+tl.fromTo("#dc",{opacity:0,y:8},{opacity:1,y:0,duration:0.3,ease:"power3.out"},31.86);
+tl.to("#dv1",{opacity:1,duration:0.25},32.28); tl.to("#dv2",{opacity:1,duration:0.25},33.28);
+tl.to(["#dd","#dl","#dc"],{opacity:0,duration:0.2,ease:"power1.in"},33.78); tl.set(["#dd","#dl","#dc"],{visibility:"hidden"},34.0);
+// weight, price
+cardIn("#wt",42.12); cardOut("#wt",43.62);
+cardIn("#pr",46.12); cardOut("#pr",47.2);
+tl.set({},{},48.033);
+window.__timelines=window.__timelines||{}; window.__timelines["main"]=tl; tl.seek(0);
+</script>
+</body>
+</html>

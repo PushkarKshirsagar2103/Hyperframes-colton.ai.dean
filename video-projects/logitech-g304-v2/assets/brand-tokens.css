@@ -1,0 +1,15 @@
+:root {
+  /* POV Pushkar — approved 2026-10-25 (see PREFERENCES.md + EDITING_BLUEPRINT.md) */
+  --brand-bg: #0B0B0D;                       /* primary dark background */
+  --brand-surface: #16161A;                  /* cards on dark */
+  --brand-surface-2: #F2F2F0;                /* light panel — use when it suits the content */
+  --brand-border: rgba(255, 255, 255, 0.12); /* card edges, split divider */
+  --brand-accent: #C8FF2E;                   /* electric lime — accent only, never a big fill */
+  --brand-accent-glow: rgba(200, 255, 46, 0.25);
+  --brand-warn: #FF453A;                     /* small ✕ markers in comparisons only */
+  --brand-text: #FFFFFF;
+  --brand-text-dim: #8E8E93;                 /* unspoken karaoke words, labels */
+
+  --font-mono: ui-monospace, Menlo, monospace;
+  --font-display: "Inter", system-ui, sans-serif;
+}
