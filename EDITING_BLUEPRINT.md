@@ -1,8 +1,19 @@
-# POV Pushkar — Editing Blueprint (DRAFT, awaiting approval)
+# POV Pushkar — Editing Blueprint (APPROVED 2026-10-25, with refinements)
 
 Built 2026-10-25 from six studied Instagram Reels, on top of `CREATOR.md` and `PREFERENCES.md`. Per-reel detail lives in `_reference/creator-library/`. Nothing here copies a creator's script, footage, music, graphics or branded assets — only editing techniques, re-expressed in POV Pushkar's own look.
 
-**Status:** draft. Once approved, the agreed rules get merged into `PREFERENCES.md` and the colours into `assets/brand-tokens.css` (setup Step 4).
+**Status:** approved. The agreed rules are merged into `PREFERENCES.md` and the colours into `assets/brand-tokens.css`. **`PREFERENCES.md` is the source of truth** — where this document gives a fixed number or structure, read it as a guide.
+
+## Approved refinements (these override anything below)
+
+1. **Flexible, not templated.** The content decides the layout: full-screen talking head, split screen, full-screen B-roll, product footage, screen recording or picture-in-picture, chosen per beat. The structure in §3 is a starting point, not a template.
+2. **Nothing is mandatory.** Music, progress trackers, chapter cards, a twist beat and an outro are all optional, used only when they improve the video.
+3. **Captions:** accurate spoken Roman-script Hinglish, never translated or rewritten; grey→white highlighting with selective lime; phrase length varies naturally (2–4 words is typical, not enforced). If transcription is uncertain, caption lines go to Pushkar for correction before rendering. Scripts/notes are supporting material, not the final wording.
+4. **Cutting:** ~0.4s is a guide for "too long a pause", not an absolute rule. Keep breaths, rhythm and meaningful fillers; never sound rushed or robotic; never change meaning or rearrange dialogue misleadingly.
+5. **Visuals & sound:** visuals only when they support the spoken point; transitions restrained but chosen per scene; subtle zooms sparingly with no fixed quota; music optional and only with a clearly licensed track (otherwise leave it out and ask); SFX sparingly.
+6. **Endings:** chosen per video — clean payoff, closing line, platform-specific follow line, or return to the opening shot. Reveals only when they genuinely help the story.
+7. **Exports:** separate Instagram Reels (`@povpushkar`) and YouTube Shorts (`Pov Pushkar`) versions when practical, both 9:16; never force a handle in if it weakens the ending.
+8. **Colours & font confirmed:** Inter; lime `#C8FF2E`; dark `#0B0B0D`; light panel `#F2F2F0` used when it suits — both light and dark layouts.
 
 ---
 
@@ -195,4 +206,5 @@ Only where the references give a clear reason:
 5. **Engagement data is partial.** Instagram exposed likes and comments but not views, and comment counts are inflated by comment-keyword CTAs. I made **no claims about which techniques perform better**.
 6. **Small samples.** @technolobe has 1 video and @namansoni.ai has 2. The repo's rule is 3+ before writing a creator "fingerprint", so only @dhananjay_tech has one (`style-distilled.md`).
 7. **Reel 5 appears to be a tool promotion.** Only its editing structure was used.
-8. **Not yet set:** `assets/brand-tokens.css` is still blank (setup Step 4). The values in §4 are a proposal. The setup marker in `CREATOR.md` stays until you approve them.
+8. **Resolved 2026-10-25:** brand tokens are now set in `assets/brand-tokens.css` and setup is complete.
+9. **Music not cleared:** the bundled `assets/music/music-bed-cinematic-tech.mp3` has no recorded title, author or source link (the manifest only says the original kit came from Pixabay), so its licence can't be confirmed track-by-track. Videos go without music unless Pushkar supplies or approves a track.

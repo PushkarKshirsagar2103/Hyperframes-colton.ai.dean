@@ -1,8 +1,3 @@
-<!-- HYPERFRAMES_SETUP_INCOMPLETE -->
-<!-- ^ Leave this marker until /setup is complete. It tells Claude to greet a new user
-     and run onboarding before any video work. The setup skill removes it when finished.
-     Remaining setup steps: reference reels (Step 3) and brand colors (Step 4). -->
-
 # Creator Profile — Pushkar Kshirsagar
 
 Your identity, positioning, and workflow for video work in this workspace. **Read this before every video task** (alongside `PREFERENCES.md`). Use it for on-screen text, niche framing, and workflow assumptions.
@@ -57,8 +52,10 @@ Pushkar is a beginner and does not write code or configure tools. Keep every ste
 
 - **Look**: premium, clean, modern, minimalist, Apple-like.
 - **Text**: white.
-- **Accent**: electric lime. Use it tastefully for highlights, never as a large fill.
-- Background color and display font are confirmed in setup Step 4 and live in `assets/brand-tokens.css`.
+- **Accent**: electric lime `#C8FF2E`. Use it tastefully for highlights, never as a large fill.
+- **Backgrounds**: near-black `#0B0B0D` (primary) and a light panel `#F2F2F0` when it suits the content — both light and dark layouts, always premium and clean.
+- **Font**: Inter.
+- Exact tokens live in `assets/brand-tokens.css` (confirmed 2026-10-25).
 
 Full editing taste lives in `PREFERENCES.md`.
 
@@ -66,12 +63,13 @@ Full editing taste lives in `PREFERENCES.md`.
 
 See [`_reference/creator-library/INDEX.md`](_reference/creator-library/INDEX.md) for the full list. Add new creators via `/study-creator <url>`.
 
-Pushkar's reference videos define the editing style, pacing, captions, and motion graphics they like. Six reels were studied on 2026-10-25 (@dhananjay_tech ×3 — primary tech reference; @technolobe ×1 — premium aesthetic; @namansoni.ai ×2 — structure and storytelling). The combined direction is in [`EDITING_BLUEPRINT.md`](EDITING_BLUEPRINT.md) (draft — awaiting Pushkar's approval).
+Pushkar's reference videos define the editing style, pacing, captions, and motion graphics they like. Six reels were studied on 2026-10-25 (@dhananjay_tech ×3 — primary tech reference; @technolobe ×1 — premium aesthetic; @namansoni.ai ×2 — structure and storytelling). The combined direction is in [`EDITING_BLUEPRINT.md`](EDITING_BLUEPRINT.md) (approved 2026-10-25 with refinements — flexible guidelines, not a fixed template).
 
 ## Posting cadence & length defaults
 
 - _Cadence_: _(TBD)_
 - _Default length_: 15–45s short-form vertical is a common sweet spot. Adjust per video (reviews and comparisons may run longer).
+- _Format_: 9:16 vertical; separate Instagram Reels (`@povpushkar`) and YouTube Shorts (`Pov Pushkar`) exports when practical.
 - _Default fps_: 30 (matches Instagram + YouTube Shorts defaults).
 
 ## Project slug convention
